@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="40sp"
+    android:elevation="8dp"
+    app:cardPreventCornerOverlap="true"
+    android:layout_marginBottom="16sp"
+    android:layout_marginTop="16sp"
+    app:cardElevation="8dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#EEED2828">
+
+    <LinearLayout
+        android:gravity="center"
+        android:padding="4sp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+
+
+        <ImageView
+            android:layout_marginTop="16sp"
+            android:adjustViewBounds="true"
+
+            android:id="@+id/image_view"
+            android:layout_width="300sp"
+            app:shapeAppearance="@style/Circule"
+            android:layout_height="300dp"
+            android:src="@mipmap/ic_launcher"
+            android:layout_marginBottom="40sp"
+            />
+
+
+        <TextView
+            android:padding="10sp"
+            android:layout_margin="10sp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="-40dp"
+            android:id="@+id/text_view_creator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Creator :"
+            android:textColor="@android:color/black"
+            android:textSize="20sp" />
+
+
+        <TextView
+            android:padding="10sp"
+            android:layout_margin="10sp"
+            android:layout_gravity="left"
+            android:layout_marginBottom="20sp"
+            android:layout_marginLeft="-70dp"
+            android:id="@+id/text_view_likes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20sp"
+            android:textSize="15sp"
+            android:textColor="@color/black"
+            android:drawableStart="@drawable/ic_baseline_add_task_24"
+            android:drawablePadding="8dp"
+            android:drawableTint="@color/black"
+            android:fontFamily="@font/bangers"
+            android:text="Like: " />
+
+
+
+    </LinearLayout>
+
+
+
+</androidx.cardview.widget.CardView>
